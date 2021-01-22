@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Contact Me</title>
+</head>
+
+<body>
+  <table width="100%" >
+    <tr>
+      <td><h1>My Contact Information is:</h1>
+      <p><strong>Postal Address:</strong> Postnet Suite 298, Private Bag X2020, Birchleigh,1621</p>
+      <p><strong>Email:</strong> technomagekomt@gmail.com</p>
+      <p><strong>Cell:</strong>+27845967038</p></td>
+      <td><img src="post-it.png" alt="Post-it Note Icon" width="150"></td>
+    </tr>
+  </table>
+  <hr />
+  <h3>Alternatively please fill in the form below and I will contact you</h3>
+  <form action="mailto:technomagekomt@gmail.com" method="POST" enctype="text/plain" >
+    <div class="">
+      <label for="firstname">Firstname</label>
+        <input type="text" name="firstname" value="" placeholder="Firstname" required="required" autofocus="autofocus"/>
+    </div>
+    <br />
+    <div class="">
+      <label for="email">Email address</label>
+        <input type="eemail" name="email" value="" placeholder="example@domain.com" required="required" />
+    </div>
+    <br />
+    <div class="">
+      <label for="date">Date</label>
+      <input type="datetime-local" name="date" id="date" value="">
+    </div>
+    <br />
+    <div>
+      <label for="message">Message</label><br>
+      <textarea name="message" id="message" rows="8" cols="80" placeholder="Your message in here"></textarea>
+    </div>
+    <br />
+    <div class="">
+      <button type="submit">Submit</button>
+    </div>
+  </form>
+
+</body>
+
+</html>
